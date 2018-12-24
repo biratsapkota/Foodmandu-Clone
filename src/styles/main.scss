@@ -1,0 +1,124 @@
+.Header{
+	display:flex;
+	padding:20px;
+	position:fixed;
+	top:auto;
+	position: relative;
+	.headericon{
+		& img{
+			height: 30px;
+			width:auto;
+		}
+	}
+	.headerlogin{
+		border:1px solid orange;
+		text-align: center;
+		width:100px;
+		height:25px;
+		padding-top: 5px;
+		border-radius: 10px;
+		transition: 1s;
+		position: absolute;
+		right:100px;
+		&:hover{
+			background-color:yellow;
+		}
+	}
+}
+
+.herowrapper{ 
+  background-image: url("https://res.cloudinary.com/dpy0mkwsp/image/upload/v1545326564/images/burger-istock.jpg");
+  height: 600px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  .herohead{
+  	font-size: 35px;
+  	color:lightgrey;
+  	padding-top: 18%;
+  }
+  .herosearch{
+  	padding: 1% 0% 0% 25%;
+  	display:flex;
+  	& input{
+  		width:50%;
+  		height:40px;
+  		outline-style: none;
+  		&::placeholder{
+  			padding-left:10px;
+  		}
+  	}
+  	.herobutton{
+  		background-color:#ad7d24;
+  		padding-top:15px;
+  		color:white;
+  		width:20%;
+  		height:31px;
+  		transition:1s;
+  		&:hover{
+  			background-color:orange;
+  		}
+  	}
+  }
+}
+
+.cravingwrapper{
+	text-align: center;
+	padding-bottom:30px;
+	border-bottom:1px solid grey;
+	.cravinghead{
+		padding-top:5%;
+		font-size:30px;
+		color:grey;
+	}
+
+	.cravingboxes{
+		padding:20px 20px 0px 20px;
+		display:flex;
+		flex-wrap: wrap;
+		.cravingbox{
+			margin-right:7.9%;
+			padding-top:10px;
+			.cravingimg{
+				height:20px;
+				width:20px;
+			}
+			.cravingitem{
+				padding-top: 90px;
+			}
+		}
+	}
+}
+
+.specialdeal{
+	.specialhead{
+		padding:2% 0 0 18px;
+		color:grey;
+	}
+	.specialboxes{
+		display:flex;
+		flex-wrap: wrap;
+		padding-left:18px;
+		margin:0;
+		.specialbox{
+			margin:2% 5.2% 0 0 ;
+			.specialimg{
+				height: 150px;
+				width:250px;
+ 				background-image: url("https://res.cloudinary.com/dpy0mkwsp/image/upload/v1545649415/images/Super7_Web_Feature_Listing__1_-min_251118033425.png");
+ 				background-position: center;
+			    background-repeat: no-repeat;
+			    background-size: contain;
+			    transition: transform 1s;
+				&:hover{
+					transform:scale(0.95);
+				}
+			}	
+		}
+		.specialitem{
+			padding-left:6%;
+		}
+	}
+}
