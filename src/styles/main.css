@@ -62,36 +62,50 @@
   .cravingwrapper .cravingboxes {
     padding: 20px 20px 0px 20px;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    padding: 30px 30px 0 200px; }
     .cravingwrapper .cravingboxes .cravingbox {
-      margin-right: 7.9%;
+      margin-right: 5%;
       padding-top: 10px; }
       .cravingwrapper .cravingboxes .cravingbox .cravingimg {
-        height: 20px;
-        width: 20px; }
+        height: 50px;
+        width: 80px; }
+        .cravingwrapper .cravingboxes .cravingbox .cravingimg img {
+          height: 100%;
+          width: 100%; }
       .cravingwrapper .cravingboxes .cravingbox .cravingitem {
-        padding-top: 90px; }
+        padding-top: 10px; }
 
-.specialdeal .specialhead {
-  padding: 2% 0 0 18px;
-  color: grey; }
-
-.specialdeal .specialboxes {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 18px;
-  margin: 0; }
-  .specialdeal .specialboxes .specialbox {
-    margin: 2% 5.2% 0 0; }
-    .specialdeal .specialboxes .specialbox .specialimg {
-      height: 150px;
-      width: 250px;
-      background-image: url("https://res.cloudinary.com/dpy0mkwsp/image/upload/v1545649415/images/Super7_Web_Feature_Listing__1_-min_251118033425.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      transition: transform 1s; }
-      .specialdeal .specialboxes .specialbox .specialimg:hover {
-        transform: scale(0.95); }
-  .specialdeal .specialboxes .specialitem {
-    padding-left: 6%; }
+.specialdeal {
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey; }
+  .specialdeal .specialhead {
+    padding: 2% 0 0 18px;
+    color: grey; }
+  .specialdeal .specialboxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 18px;
+    margin: 0; }
+    .specialdeal .specialboxes .specialbox {
+      margin: 2% 5.2% 0 0; }
+      .specialdeal .specialboxes .specialbox .specialimg {
+        height: 150px;
+        width: 250px;
+        background-image: url("https://res.cloudinary.com/dpy0mkwsp/image/upload/v1545649415/images/Super7_Web_Feature_Listing__1_-min_251118033425.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: transform 1s; }
+        .specialdeal .specialboxes .specialbox .specialimg:hover {
+          transform: scale(0.95); }
+    .specialdeal .specialboxes .specialitem {
+      padding-left: 6%; }
+  .specialdeal .viewdeal {
+    text-align: center;
+    padding: 10px;
+    height: 10%;
+    width: 10%;
+    background-color: #211e1e;
+    color: white;
+    margin: 3% 0 0 45%; }

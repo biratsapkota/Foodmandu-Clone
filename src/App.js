@@ -3,6 +3,7 @@ import Header from './components/Header/header';
 import Hero from './components/Hero/hero';
 import Craving from './components/craving/craving';
 import Specialdeal from './components/specialdeal/specialdeal';
+import Restaurants from './components/restaurants/restaurants';
 import "./styles/main.css";
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Hero/>
         <Craving/>
         <Specialdeal/>
+        <Restaurants />
       </div>
     );
   }

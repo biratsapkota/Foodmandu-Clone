@@ -18,6 +18,9 @@ class specialdeal extends Component{
 					<Specialbox name="Flat Iron Grill" link ="https://res.cloudinary.com/dpy0mkwsp/image/upload/v1545649415/images/Super7_Web_Feature_Listing__1_-min_251118033425.png"/>
 					<Specialbox name="Flat Iron Grill" link ="https://res.cloudinary.com/dpy0mkwsp/image/upload/v1545649415/images/Super7_Web_Feature_Listing__1_-min_251118033425.png"/>
 				</div>
+				<div className = "viewdeal">
+					View all Deals -->
+				</div>
 			</div>
 		)
 	}
